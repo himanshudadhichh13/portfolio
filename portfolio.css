@@ -1,0 +1,130 @@
+h1{ color: black;
+font-family: Georgia, serif;
+    font-weight: bold;}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #88f0f7;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+nav{
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+
+}
+#Home{
+    text-align: center;
+    padding: 60px 20px;
+}
+#Home p{
+    font-size: 20px;
+}
+#about{
+    text-align: center;
+    padding: 50px 20px;
+}
+#about h2{
+    font-size: 32px;
+    
+}
+#about p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.6;
+}
+#qualification{
+    padding: 50px 20px;
+    text-align: center;
+}
+#qualification table{
+    width: 80px;
+    margin: auto;
+    border-collapse: collapse;
+}
+#qualification th,
+#qualification td{
+    border: 1px solid black;
+    padding: 12px;
+
+}
+#qualification th{
+    background-color: black;
+    color: white;
+}
+#skills{
+    padding: 50px 20px;
+    text-align: center;
+
+}
+#skills ul{
+    list-style: none;
+    padding: 0;
+}
+#skills li{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 30px;
+}
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 500px;
+    margin: auto;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 15px;
+    box-sizing: border-box;
+}
+
+#contact textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+#contact button {
+    padding: 12px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #333;
+}
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
